@@ -23,7 +23,43 @@ a:visited {
 }
 
 main aside img {
-    width: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+main aside figure {
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-bottom: 0.8rem;
+}
+main aside figure figcaption {
+    margin-top: 0.6rem;
+    margin-left: 0.6rem;
+    padding-bottom: 0.4rem;
+}
+main aside .see-all-media {
+    text-align: center;
+    margin-bottom: 0.7rem;
+    font-weight: bold;
+}
+
+.para-aside {
+    padding-top: 1rem;
+}
+
+main aside .related-content {
+    border: 1px solid #95a5a6;
+    border-radius: 7px;
+    padding: 0.6rem;
+    display: block;
+    text-align: center;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.inventions {
+    margin-bottom: 1.4rem;
 }
 
 header {
@@ -61,6 +97,10 @@ li {
     padding: 0 1rem;
 }
 
+nav .breadcrumb li {
+    font-size: 0.8rem;
+}
+
 .navbar-header {
     display: flex;
     align-items: center;
@@ -81,11 +121,49 @@ main {
     padding: 1.2rem;
     margin-left: 2rem;
     margin-bottom: 1rem;
-    max-width: 900px;
+    max-width: 789px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 aside {
     border: 1px solid #95a5a6;
+    width: 280px;
+    flex-basis: 35%;
+    order: 3;
+    padding: 1rem;
+}
+.biography {
+    flex-basis: 65%;
+    order: 2;
+    line-height: 1.8rem;
+}
+.tim-name {
+    flex-basis: 100%;
+    order: 1;
+    margin-bottom: 2rem;
+}
+
+.tim-name h1, .tim-name h3, .tim-name section, .tim-name p {
+    margin-bottom: 0.5rem;
+}
+
+.tim-name .icons button {
+    background-color: #fff;
+    border: 1px solid #95a5a6;
+    border-radius: 5px;
+    color: #1454c2;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    margin: 0.4rem 0;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
 }
 
 nav {
@@ -99,3 +177,4 @@ nav .breadcrumb {
     padding-bottom: 1rem;
     color: #1454c2;
 }
+
