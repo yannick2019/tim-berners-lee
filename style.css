@@ -126,14 +126,14 @@ main {
     padding: 1.2rem;
     margin-left: 2rem;
     margin-bottom: 1rem;
-    max-width: 789px;
+    width: 840px;
     display: flex;
     flex-wrap: wrap;
 }
 
 
 aside {
-    border: 1px solid #95a5a6;
+    border: 1px solid #dcdde1;
     width: 280px;
     flex-basis: 35%;
     order: 3;
@@ -161,7 +161,7 @@ aside {
     color: #1454c2;
     display: flex;
     align-items: center;
-    padding: 0.2rem;
+    padding: 0.4rem;
     margin: 0.4rem 0;
 }
 
@@ -182,4 +182,187 @@ nav .breadcrumb {
     padding-bottom: 1rem;
     color: #1454c2;
 }
+
+
+
+.login-mobile {
+    display: none;
+}
+.tim-name .icons .actions {
+    display: none;
+}
+.table-contents {
+    display: none;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    background-color: #fff;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #1454c2;
+    padding: 0.8rem;
+    margin-top: 1rem;
+}
+.category-head, .category {
+    display: none;
+    background-color: #ffb142;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+
+
+@media screen and (max-width: 981px) {
+    header .navbar-header img {
+        width: 140px;
+    }
+
+    .biography {
+        padding-right: 1rem;
+    }
+
+    ul {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 846px) {
+    main {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .login-desktop {
+        display: none;
+    }
+
+    .login-mobile {
+        display: block;
+    }
+
+    .navbar-header ul li:nth-child(3), 
+    .navbar-header ul li:nth-child(4),
+    .navbar-header ul li:nth-child(5) {
+        display: none;
+    }
+
+    main aside .see-all-media, main aside .related-content {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    main aside .see-all-media, main aside .related-content {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: #fff;
+    }
+
+    main {
+        border: none;
+    }
+    aside {
+        width: 100%;
+        flex-basis: 100%;
+        order: 2;
+        padding: 1rem;
+    }
+    .biography {
+        flex-basis: 100%;
+        order: 3;
+        line-height: 1.8rem;
+    }
+    .tim-name {
+        flex-basis: 100%;
+        order: 1;
+        margin-bottom: 1.8rem;
+    }
+
+    .tim-name h1 {
+        font-size: 2rem;
+    }
+
+    .tim-name .icons button:nth-child(1),
+    .tim-name .icons button:nth-child(2),
+    .tim-name .icons button:nth-child(3),
+    .tim-name .icons button:nth-child(4),
+    .tim-name .icons button:nth-child(5) {
+        display: none;
+    }
+
+    .tim-name .icons .actions {
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+
+    .tim-name {
+        position: relative;
+    }
+
+    .tim-name .icons {
+        position: absolute;
+        z-index: 1;
+        top: 2rem;
+        left: 22.8rem;
+        margin: auto;
+    }
+
+    .navbar-header ul {
+        font-size: 1.2rem;
+    }
+
+    .navbar-header ul .browse, .navbar-header ul .search {
+        display: none;
+    }
+
+    .navbar-header {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .navbar-header ul .search {
+        margin-right: 20rem;
+    }
+
+    .table-contents {
+        display: block;
+    }
+
+    main aside .related-content, main aside .see-all-media {
+        font-size: 1.1rem;
+    }
+
+    .category-head, .category {
+        display: inline-block;
+    }
+
+    .category-head {
+        margin-bottom: 1rem;
+    }
+
+    .para-category {
+        margin-top: 1.2rem;
+    }
+
+    aside {
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 475px) {
+
+}
+
+
 
