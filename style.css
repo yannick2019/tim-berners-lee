@@ -312,7 +312,7 @@ nav .breadcrumb {
         position: absolute;
         z-index: 1;
         top: 2rem;
-        left: 22.8rem;
+        left: 22rem;
         margin: auto;
     }
 
@@ -361,6 +361,36 @@ nav .breadcrumb {
 
 
 @media screen and (max-width: 475px) {
+    .tim-name {
+        position: relative;
+    }
+
+    .tim-name .icons {
+        position: absolute;
+        z-index: 1;
+        top: 2rem;
+        left: 18rem;
+        margin: auto;
+    }
+
+    .navbar-header ul {
+        font-size: 1rem;
+    }
+
+    .navbar-header {
+       position: relative;
+    }
+    .navbar-header img {
+        position: absolute;
+        left: 5rem;
+    }
+
+    .navbar-header ul {
+        position: absolute;
+        z-index: 1;
+        top: -0.6rem;
+        left: -0.8rem;
+    }
 
 }
 
