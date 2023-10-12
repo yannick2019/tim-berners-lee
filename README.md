@@ -12,8 +12,8 @@ A simple web page on Tim Berners-Lee, following a predefined mockup.
 Click here to see the [live version](https://yannick2019.github.io/tim-berners-lee/) 
 
 ## Technologies used
-- vite ompiler
--  HTML5
+- vite compiler
+- HTML5
 - CSS
 
 ## develop
