@@ -218,7 +218,9 @@ nav .breadcrumb {
     font-style: normal;
 }
 
-/* Barre déroulante */
+.para-category {
+    display: none;
+}
 
 
 
@@ -362,6 +364,7 @@ nav .breadcrumb {
     }
 
     .para-category {
+        display: block;
         margin-top: 1.2rem;
     }
 
